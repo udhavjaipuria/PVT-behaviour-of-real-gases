@@ -6,7 +6,7 @@ A Python property-prediction package for 15 pure gases, expanded from 50 to **65
 
 ## Install and use
 
-Python 3.11 or newer is required. Unzip, open a terminal in `realgas_ml`, then run:
+Python 3.11 or newer is required. Clone this repository, open a terminal in its root folder, then run:
 
 ```sh
 python -m pip install .
