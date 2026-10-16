@@ -2,7 +2,7 @@
 
 A Chemical Engineering Thermodynamics project. Python package: `realgas-ml` 0.2.0.
 
-A Python property-prediction package for 15 pure gases, expanded from 50 to **65,536 training states per gas** (983,040 total; 1,310.72 times the previous count). It predicts compressibility factor Z, molar/total volume, density, molar enthalpy and entropy, total H and S, and pressure from temperature and molar volume.
+A Python property-prediction package for 15 pure gases, trained on **65,536 states per gas** (983,040 total). It predicts compressibility factor Z, molar/total volume, density, molar enthalpy and entropy, total H and S, and pressure from temperature and molar volume.
 
 ## Install and use
 
