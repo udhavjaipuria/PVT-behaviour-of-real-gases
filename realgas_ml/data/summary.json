@@ -1,0 +1,8 @@
+{
+  "training_states": 983040,
+  "validation_states": 7680,
+  "test_states": 34560,
+  "baseline_mean_volume_MAPE_percent": 0.041652706988551606,
+  "improved_mean_volume_MAPE_percent": 5.541449870947897e-09,
+  "worst_test_volume_APE_percent": 3.6089297594799064e-05
+}

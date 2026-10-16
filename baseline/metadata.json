@@ -1,0 +1,219 @@
+{
+  "source": "CoolProp HEOS reference-EOS generated data, not experimental measurements",
+  "coolprop_version": "8.0.0",
+  "sklearn_version": "1.8.0",
+  "reference_state": "DEF (fluid-specific)",
+  "seed": 2027,
+  "fluids": {
+    "Nitrogen": {
+      "T_range_K": [
+        300.0,
+        600.0
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.02801348,
+      "Tc_K": 126.19199999958556,
+      "EOS_reference": "Span-JPCRD-2000",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/Nitrogen.html"
+    },
+    "Oxygen": {
+      "T_range_K": [
+        300.0,
+        600.0
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.0319988,
+      "Tc_K": 154.59938983528554,
+      "EOS_reference": "Schmidt-FPE-1985,Stewart-JPCRD-1991",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/Oxygen.html"
+    },
+    "CarbonDioxide": {
+      "T_range_K": [
+        334.5410200032788,
+        600.0
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.0440098,
+      "Tc_K": 304.1282000029807,
+      "EOS_reference": "Span-JPCRD-1996",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/CarbonDioxide.html"
+    },
+    "Hydrogen": {
+      "T_range_K": [
+        300.0,
+        600.0
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.00201588,
+      "Tc_K": 33.1443326883113,
+      "EOS_reference": "Leachman-JPCRD-2009",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/Hydrogen.html"
+    },
+    "Helium": {
+      "T_range_K": [
+        300.0,
+        600.0
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.004002602,
+      "Tc_K": 5.195300013635951,
+      "EOS_reference": "OrtizVega-JPCRD-2019",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/Helium.html"
+    },
+    "Argon": {
+      "T_range_K": [
+        300.0,
+        600.0
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.039948,
+      "Tc_K": 150.68700000001058,
+      "EOS_reference": "Tegeler-JPCRD-1999",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/Argon.html"
+    },
+    "Neon": {
+      "T_range_K": [
+        300.0,
+        600.0
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.020179,
+      "Tc_K": 44.39999970498691,
+      "EOS_reference": "Thol-JPCRD-2019-Neon",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/Neon.html"
+    },
+    "Methane": {
+      "T_range_K": [
+        300.0,
+        600.0
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.0160428,
+      "Tc_K": 190.56400265128698,
+      "EOS_reference": "Setzmann-JPCRD-1991",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/Methane.html"
+    },
+    "Ethane": {
+      "T_range_K": [
+        335.8542000000171,
+        600.0
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.03006904,
+      "Tc_K": 305.3220000000155,
+      "EOS_reference": "Buecker-JPCRD-2006",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/Ethane.html"
+    },
+    "Propane": {
+      "T_range_K": [
+        406.8790098460598,
+        628.8130152166378
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.04409562,
+      "Tc_K": 369.8900089509634,
+      "EOS_reference": "Lemmon-JCED-2009",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/Propane.html"
+    },
+    "n-Butane": {
+      "T_range_K": [
+        467.63750000000886,
+        574.0
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.0581222,
+      "Tc_K": 425.125000000008,
+      "EOS_reference": "Buecker-JPCRD-2006B",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/n-Butane.html"
+    },
+    "CarbonMonoxide": {
+      "T_range_K": [
+        300.0,
+        499.0
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.0280101,
+      "Tc_K": 132.85989463386605,
+      "EOS_reference": "Lemmon-JCED-2006",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/CarbonMonoxide.html"
+    },
+    "Ammonia": {
+      "T_range_K": [
+        446.11599997058994,
+        689.451999954548
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.01703052,
+      "Tc_K": 405.55999997326353,
+      "EOS_reference": "Gao-JPCRD-2020",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/Ammonia.html"
+    },
+    "SulfurDioxide": {
+      "T_range_K": [
+        473.7040006952699,
+        524.0
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.0640638,
+      "Tc_K": 430.6400006320635,
+      "EOS_reference": "Gao-JCED-2016",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/SulfurDioxide.html"
+    },
+    "Water": {
+      "T_range_K": [
+        711.805599999986,
+        1100.0631999999782
+      ],
+      "P_range_Pa": [
+        100000.0,
+        5000000.0
+      ],
+      "molar_mass_kg_mol": 0.018015268,
+      "Tc_K": 647.0959999999873,
+      "EOS_reference": "Wagner-JPCRD-2002",
+      "source_url": "https://coolprop.org/fluid_properties/fluids/Water.html"
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "Nitrogen": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 0.004324093812836827,
+    "Z_max_APE_percent": 0.044095521482945266,
+    "v_MAPE_percent": 0.004324093812836827,
+    "h_MAE_J_mol": 0.9642592626628175,
+    "s_MAE_J_mol_K": 0.005344971316292515
+  },
+  "Oxygen": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 0.012133107795977538,
+    "Z_max_APE_percent": 0.11422225215651505,
+    "v_MAPE_percent": 0.012133107795977538,
+    "h_MAE_J_mol": 0.8744845846122007,
+    "s_MAE_J_mol_K": 0.005945287100642531
+  },
+  "CarbonDioxide": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 0.08400119072643963,
+    "Z_max_APE_percent": 0.7421754744868725,
+    "v_MAPE_percent": 0.08400119072643963,
+    "h_MAE_J_mol": 16.556418962511852,
+    "s_MAE_J_mol_K": 0.04146629462082188
+  },
+  "Hydrogen": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 6.32417304392563e-05,
+    "Z_max_APE_percent": 0.0005476339372423311,
+    "v_MAPE_percent": 6.32417304392563e-05,
+    "h_MAE_J_mol": 0.10382802104956682,
+    "s_MAE_J_mol_K": 0.0013525116449478957
+  },
+  "Helium": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 0.00018068668301218782,
+    "Z_max_APE_percent": 0.0010614648181084263,
+    "v_MAPE_percent": 0.00018068668301218782,
+    "h_MAE_J_mol": 0.030583615491468662,
+    "s_MAE_J_mol_K": 0.0010930548096321502
+  },
+  "Argon": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 0.009242258546539595,
+    "Z_max_APE_percent": 0.08010725375654504,
+    "v_MAPE_percent": 0.009242258546539595,
+    "h_MAE_J_mol": 0.5631496802475613,
+    "s_MAE_J_mol_K": 0.003485538029743083
+  },
+  "Neon": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 9.656281634107255e-05,
+    "Z_max_APE_percent": 0.000877142794630803,
+    "v_MAPE_percent": 9.656281634107255e-05,
+    "h_MAE_J_mol": 0.028832907264104507,
+    "s_MAE_J_mol_K": 0.0014122387104598033
+  },
+  "Methane": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 0.05335520875735888,
+    "Z_max_APE_percent": 0.5333837754084136,
+    "v_MAPE_percent": 0.05335520875735888,
+    "h_MAE_J_mol": 3.511534330871782,
+    "s_MAE_J_mol_K": 0.013419226587768236
+  },
+  "Ethane": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 0.1744393403917277,
+    "Z_max_APE_percent": 1.1627751364805872,
+    "v_MAPE_percent": 0.1744393403917277,
+    "h_MAE_J_mol": 76.25194817118368,
+    "s_MAE_J_mol_K": 0.16890811749051196
+  },
+  "Propane": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 0.2022369541587537,
+    "Z_max_APE_percent": 2.5244623046155157,
+    "v_MAPE_percent": 0.2022369541587537,
+    "h_MAE_J_mol": 92.00122233223213,
+    "s_MAE_J_mol_K": 0.17985736117545487
+  },
+  "n-Butane": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 0.07167257962041063,
+    "Z_max_APE_percent": 1.0307819842028554,
+    "v_MAPE_percent": 0.07167257962041063,
+    "h_MAE_J_mol": 21.905851720716235,
+    "s_MAE_J_mol_K": 0.03597329237546035
+  },
+  "CarbonMonoxide": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 0.001688450112690254,
+    "Z_max_APE_percent": 0.014857929474698661,
+    "v_MAPE_percent": 0.001688450112690254,
+    "h_MAE_J_mol": 0.18375760649170844,
+    "s_MAE_J_mol_K": 0.0009777639697828987
+  },
+  "Ammonia": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 0.013350964268268428,
+    "Z_max_APE_percent": 0.16993826189692918,
+    "v_MAPE_percent": 0.013350964268268428,
+    "h_MAE_J_mol": 3.0038413069520904,
+    "s_MAE_J_mol_K": 0.004526847893668275
+  },
+  "SulfurDioxide": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 0.0014665306804991785,
+    "Z_max_APE_percent": 0.015567686363238131,
+    "v_MAPE_percent": 0.0014665306804991785,
+    "h_MAE_J_mol": 0.09503984859155025,
+    "s_MAE_J_mol_K": 0.00022973301636483256
+  },
+  "Water": {
+    "train_points": 50,
+    "test_points": 100,
+    "Z_MAPE_percent": 0.0029825115403077085,
+    "Z_max_APE_percent": 0.022777556564612667,
+    "v_MAPE_percent": 0.0029825115403077085,
+    "h_MAE_J_mol": 1.571471825924309,
+    "s_MAE_J_mol_K": 0.001716698666784282
+  }
+}

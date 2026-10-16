@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "realgas-ml"
+version = "0.2.0"
+description = "Dense-data local kernel surrogates for 15 pure real gases"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24", "scipy==1.17.0", "scikit-learn==1.8.0", "joblib>=1.3"]
+
+[project.optional-dependencies]
+train = ["CoolProp==8.0.0"]
+test = ["pytest>=7"]
+
+[project.scripts]
+realgas-ml = "realgas_ml.cli:main"
+
+[tool.setuptools.package-data]
+realgas_ml = ["data/*"]
+
+
+[tool.setuptools.packages.find]
+include = ["realgas_ml*"]
